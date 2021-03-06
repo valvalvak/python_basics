@@ -21,9 +21,9 @@ while command != "Finish":
             break
         sold_tickets_type = input()
     all_tickets += current_tickets
-    print(f"{current_movie} - {current_tickets/free_seats*100:.2f}% full.")
+    print(f"{current_movie} - {current_tickets / free_seats * 100:.2f}% full.")
     command = input()
 print(f"Total tickets: {all_tickets}\n"
-      f"{student_ticket/all_tickets*100:.2f}% student tickets.\n"
-      f"{standard_ticket/all_tickets*100:.2f}% standard tickets.\n"
-      f"{kid_ticket/all_tickets*100:.2f}% kids tickets.")
+      f"{student_ticket / all_tickets * 100:.2f}% student tickets.\n"
+      f"{standard_ticket / all_tickets * 100:.2f}% standard tickets.\n"
+      f"{kid_ticket / all_tickets * 100:.2f}% kids tickets.")

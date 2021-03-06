@@ -14,7 +14,7 @@ if command == "Going home":
     steps += home_steps
     if steps >= target:
         goal = True
-more_or_less = abs(target-steps)
+more_or_less = abs(target - steps)
 if goal:
     print(f"Goal reached! Good job!\n"
           f"{more_or_less} steps over the goal!")

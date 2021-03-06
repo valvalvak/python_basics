@@ -9,6 +9,6 @@ if nights > 7:
 total_cost = nights * bed_price + budget * extra_budget_percentage
 
 if budget >= total_cost:
-    print(f"Ivanovi will be left with {abs(budget-total_cost):.2f} leva after vacation.")
+    print(f"Ivanovi will be left with {abs(budget - total_cost):.2f} leva after vacation.")
 else:
-    print(f"{abs(budget-total_cost):.2f} leva needed.")
+    print(f"{abs(budget - total_cost):.2f} leva needed.")
